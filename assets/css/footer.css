@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+    margin-top: 50px;
+    border-top: 10px solid #2285be;
+    background: #1f1f1f;
+    padding: 0 0 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media (max-width: 950px) {
+    .footer-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #icon-contact {
+        display: none;
+    }
+}

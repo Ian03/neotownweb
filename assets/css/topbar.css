@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+
+#topbar {
+    height: 60px;
+    font-size: 14px;
+    transition: all 0.5s;
+    overflow: hidden;
+    color: #fff;
+    z-index: 996;
+    background: #2285be;
+}
+
+#topbar .topbar-scrolled {
+    top: -60px;
+}
+
+#topbar .left-icons-links a {
+    line-height: 0;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+#topbar .left-icons-links i {
+    color: #fff;
+    line-height: 0;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#topbar .left-icons-links .topbar-icon {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+#topbar .topbar-icon {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+#topbar .right-icons-links a {
+    color: #fff;
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#topbar .right-icons-links a:hover {
+    color: #fff;
+}
+
+@media (min-width: 780px) {
+
+    #topbar-icon-remove {
+        display: none;
+    }
+}

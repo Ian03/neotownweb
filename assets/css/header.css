@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+    background: #1f1f1f;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    top: 60px;
+}
+
+#header.header-scrolled {
+    background: #1f1f1f;
+    top: 0;
+}
+
+#header .logo img {
+    max-height: 70px;
+}

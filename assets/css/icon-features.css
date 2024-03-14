@@ -1,0 +1,27 @@
+.icons-features {
+    padding: 5px 0 10px;
+    margin: 0 0 20px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.icons-features i {
+    font-size: 42px;
+    color: #2285be;
+}
+
+.icons-features .title-count {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width: 769px) {
+    .icons-features {
+        margin: 0 0 0 0;
+    }
+}

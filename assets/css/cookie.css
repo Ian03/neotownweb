@@ -1,0 +1,44 @@
+#cb-cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  border-radius: 0;
+  display: none;
+  border: none;
+  background: #1f1f1f;
+  color: #fff;
+  border-top: 10px solid #2285be;
+}
+
+.cookie-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 50px;
+  transition: 0.5s;
+  background: #2285be;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.cookie-btn:hover {
+  border-color: #fff;
+  background: #31a9ee;
+  color: #fff;
+}
+
+.cookie-p {
+  margin-top: 15px;
+}
+@media (min-width: 780px) {
+  .cookie-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
